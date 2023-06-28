@@ -1,9 +1,19 @@
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
-const category = 'toys';
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    ganres: [],
+    privat: false
+};
 
-console.log(`https://someurl.com/${category}/5`);
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+      b = prompt('На сколько оцение его?', ''),
+      c = prompt('Один из последних просмотренных фильмов?', ''),
+      d = prompt('На сколько оцение его?', '');
 
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
 
-const user = 'Ivan';
-
-alert(`Hi, ${user}`);
+console.log(personalMovieDB);
