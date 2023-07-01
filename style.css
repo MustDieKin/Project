@@ -1,0 +1,73 @@
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1em;
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 32px;
+    
+    
+}
+
+h3 {
+    font-size: 27px;
+    text-align: left;
+    
+    
+}
+
+ol {
+    font-size: 18px;
+}
+
+table {
+    width: 70%;
+	margin-bottom: 30px;
+	border: 2px solid #000000;
+	border-collapse:collapse; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+	font-weight: bold;
+	padding: 5px;
+	background: #a3ff8f;
+	border: 1px solid #000000;
+}
+td {
+	border: 1px solid #000000;
+	padding: 5px;
+}
+figure {
+    float: left; /* Выравнивание по правому краю */
+    border: 1px solid #ffffff; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 1px 1px 1px 1px; /* Отступы вокруг */
+    background: #ffffff; /* Цвет фона */ 
+  }
+  
+  figcaption {
+    /* тэг идет первым в блоке - подпись будет сверху */
+    /* выравнивание по центру, и изменим фон */
+    text-align: center;
+    background-color: #ffffff;
+    margin: 1px 1px 1px 1px;
+    font-style: italic;
+  }
+  
+  .img1, .img2, .img3, .img4,.img5, .img6,.img7, .img8,.img9, .img10 {
+    /* картинка займет всю доступную ширину блока figure*/
+    width: 100%;
+  }
+  p {
+    font-size: 21px;
+  }
+    
