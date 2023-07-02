@@ -1,46 +1,40 @@
 "use strict";
+let num = 20;
 
-
-// if (4 == 9){
-//     console.log('OK!');
-// } else {
-//     console.log('error');
-// }
-
-
-// const num = 50;
-// if (num < 49){
-//     console.log("Error");
-// } else if (num > 100){
-//     console.log("Many");
-// } else {
-//     console.log("Ok");
-// }
-
-
-// (num === 50) ? console.log("Ok") : console.log("Error");
-
-const num = 51;
-switch (num){
-    case 49: 
-        console.log('Not');
-        break;
-    case 100:
-        console.log('Not');
-        break;
-    case 50:
-        console.log('Yes');
-        break; 
-    default:
-        console.log('NONONO');        
+function showFirstMessage(text) {
+    console.log(text);
+    let num = 10;
+    console.log(num);
 }
 
 
-let hamburger;
-const fries = NaN;
-const cola = 0;
-const nuggets = 2;
 
-if (hamburger && cola || fries === 3 && nuggets) {
-   console.log('Done!')
+showFirstMessage("Hello");
+console.log(num);
+
+// function calc(a, b) {
+//     return (a + b);
+    
+// }
+
+
+// console.log(calc(4, 3));
+// console.log(calc(10, 3));
+// console.log(calc(33, 3));
+
+function ret() {
+    let num = 50;
+    return num;
 }
+
+const anotherNum = ret();
+console.log(anotherNum);
+
+
+const logger = function() {
+    console.log('Htllo');
+};
+
+logger();
+
+const calc = (a, b) => a + b;
