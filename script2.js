@@ -153,4 +153,94 @@
 // console.log(jonh.armor);
 // jonh.sayHello();
 
-// 37 Урок
+// 39 Урок Динамическая типизация
+// Превращение в строку
+// console.log(typeof(String(null)));
+
+
+// console.log(typeof(5 + ""));
+
+
+// const num = 5;
+
+// console.log("https://vk.com/catalog/" + num);
+
+// const fontSize = 26 + 'px';
+
+// // Превращение в число
+// //1
+
+// console.log(typeof(Number('4')));
+
+// //2
+
+// console.log(typeof(+'5'));
+
+// //3
+
+// console.log(typeof(parseInt('15px', 10)));
+
+// let answ = +prompt('Hello','');
+
+
+// // В булиновое значине
+
+// // 0, '', null, undefined, NaN; - Все это превращается в false
+
+// // 1
+
+// let switcher = null;
+
+// if (switcher) {
+//     console.log('Working...');
+// }
+
+// switcher = 1;
+
+// if (switcher) {
+//     console.log('Working...');
+// }
+
+// //2 
+
+// console.log(typeof(Boolean('4')));
+
+// //3 
+
+// console.log(typeof(!!"4444"));
+
+// Урок 40 Закмыкание функций
+
+// let number = 5; debugger
+
+// function logNumber() {
+//     let number = 4; debugger
+//     console.log(number);
+// }
+
+// number = 6;
+
+// logNumber(); debugger
+// const n = 1;
+// function createCounter() {
+//     let counter = 0;
+
+//     const myFunction = function() {
+//         counter = counter + 1;
+//         return counter;
+//     }
+
+//    return myFunction; 
+// }
+
+// const increment = createCounter();
+
+// const c1 = increment();
+// const c2 = increment();
+// const c3 = increment();
+
+// console.log(c1, c2, c3);
+
+
+let x =5;
+alert(x++);
